@@ -1,0 +1,24 @@
+{
+    "name": "linkorb/silex-provider-user-basic",
+    "description": "Custom Symfony Security User and in-memory User Provider for use in Silex apps.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LinkORB",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.1",
+        "symfony/console": "^3.2",
+        "symfony/security": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkORB\\BasicUser\\": "lib/"
+        }
+    },
+    "bin": ["bin/hashpasswd"]
+}
