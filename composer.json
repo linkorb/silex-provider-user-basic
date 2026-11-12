@@ -20,5 +20,8 @@
             "LinkORB\\BasicUser\\": "lib/"
         }
     },
-    "bin": ["bin/hashpasswd"]
+    "bin": ["bin/hashpasswd"],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
 }
